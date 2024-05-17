@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Pathway+Extreme:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap");
+body {
+  font-family: "Pathway Extreme", sans-serif;
+}
+header {
+  /* background-image: url("bg.jpeg"); */
+  background: linear-gradient(#ffffff00 0%, #ffffff 100%), url(bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.top-logo {
+  margin: 25px;
+  margin-top: 120px;
+  width: 100px;
+}
+.header-heading , .clipboard-heading {
+  font-size: 40px;
+  color: rgb(51, 51, 51);
+  margin-bottom: 0;
+}
+.header-para ,.clipboard-para {
+  font-size: 20px;
+  color: rgb(83, 83, 83);
+  text-align: center;
+  padding: 20px;
+}
+.header-btn {
+  display: flex;
+  flex-direction: row;
+}
+button {
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 30px;
+  margin: 15px;
+  font-size: 18px;
+  color: white;
+  margin-bottom: 50px;
+}
+button:hover {
+  filter: brightness(150%);
+}
+.btn-grn {
+  background-color: rgb(59, 202, 188);
+}
+.btn-blu {
+  background-color: rgb(87, 104, 253);
+}
+.middle-section {
+  text-align: center;
+}
+#track-heading {
+  font-size: 38px;
+  color: rgb(65, 64, 64);
+  margin-top: 100px;
+}
+#track-para {
+  font-size: 20px;
+  color: rgb(83, 83, 83);
+  margin-bottom: 100px;
+}
+.pc-part {
+  display: flex;
+}
+.text-section {
+  display: flex;
+  flex-direction: column;
+  /* margin: 75px; */
+  margin-left: 100px;
+}
+#card-heading {
+  font-size: 25px;
+  color: rgb(65, 64, 64);
+  margin-bottom: 0;
+  padding: 0;
+}
+#card-para {
+  font-size: 18px;
+  color: rgb(83, 83, 83);
+}
+.access-section {
+  text-align: center;
+  margin-top: 180px;
+}
+.access-section > h1{
+  font-size: 38px;
+   color: rgb(65, 64, 64);
+}
+.access-section >p{
+  font-size: 20px;
+   color: rgb(83, 83, 83);
+    margin-bottom: 90px;
+}
+.supercharge-section {
+  text-align: center;
+  margin: 70px;
+}
+.supercharge-section >h1{
+  font-size: 38px; 
+  color: rgb(65, 64, 64);
+}
+.supercharge-section >p{
+  font-size: 20px; 
+  color: rgb(83, 83, 83); 
+  margin-bottom: 50px;
+}
+.last-section-cards {
+  display: flex;
+  justify-content: center;
+}
+.card-2 {
+  margin-right: 70px;
+  margin-left: 70px;
+}
+.card-heading {
+  font-size: 21px;
+  color: rgb(65, 64, 64);
+  margin: 0;
+}
+.card-para {
+  font-size: 15px;
+  color: rgb(83, 83, 83);
+}
+
+.companies {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 120px;
+  margin-bottom: 100px;
+}
+.clipboard-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 25px;
+  background-color: rgb(241, 241, 241);
+}
+a {
+  text-decoration: none;
+  color: rgb(83, 83, 83);
+}
